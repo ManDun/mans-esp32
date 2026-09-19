@@ -1,0 +1,14 @@
+.DS_Store
+
+# third-party Arduino libraries (reinstall via Library Manager)
+libraries/
+
+# secrets (WiFi/MQTT credentials) - keep only the .example template
+secrets.h
+
+# Arduino IDE / arduino-cli build output
+build/
+*.hex
+*.elf
+*.bin
+*.map
